@@ -1,0 +1,15 @@
+{
+    "name": "syshacks.fredldotme",
+    "description": "Manages system modifications",
+    "architecture": "@CLICK_ARCH@",
+    "title": "SysHacks",
+    "hooks": {
+        "syshacks": {
+            "apparmor": "syshacks.apparmor",
+            "desktop":  "syshacks.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Alfred Neumayer <dev.beidl@gmail.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
